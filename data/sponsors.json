@@ -1,0 +1,4 @@
+[
+  {"id":"sponsor-1","name":"Nova Energy","budget":45000,"industry":"Energy Drink","tier":"Gold","createdAt":"2026-03-01T10:00:00.000Z","updatedAt":"2026-03-01T10:00:00.000Z"},
+  {"id":"sponsor-2","name":"Pulse Gear","budget":18000,"industry":"Peripherals","tier":"Silver","createdAt":"2026-03-04T10:00:00.000Z","updatedAt":"2026-03-04T10:00:00.000Z"}
+]

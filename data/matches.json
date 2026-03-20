@@ -1,0 +1,4 @@
+[
+  {"id":"match-1","name":"Night Owls vs Pixel Storm","title":"Opening Match","tournamentId":"tournament-1","homeTeamId":"team-1","awayTeamId":"team-2","scheduledAt":"2026-03-21T18:00:00.000Z","homeScore":2,"awayScore":1,"status":"finished","createdAt":"2026-03-08T10:00:00.000Z","updatedAt":"2026-03-12T10:00:00.000Z"},
+  {"id":"match-2","name":"Pixel Storm vs Free Agents","title":"Show Match","homeTeamId":"team-2","awayTeamId":"team-1","scheduledAt":"2026-03-24T18:00:00.000Z","homeScore":0,"awayScore":0,"status":"scheduled","createdAt":"2026-03-10T10:00:00.000Z","updatedAt":"2026-03-10T10:00:00.000Z"}
+]

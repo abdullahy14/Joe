@@ -1,0 +1,4 @@
+[
+  {"id":"team-1","name":"Night Owls","game":"Valorant","region":"NA","playerIds":["player-1","player-2"],"sponsorId":"sponsor-1","clientId":"client-1","status":"active","createdAt":"2026-03-01T10:00:00.000Z","updatedAt":"2026-03-05T10:00:00.000Z"},
+  {"id":"team-2","name":"Pixel Storm","game":"Overwatch 2","region":"EU","playerIds":["player-3"],"sponsorId":"sponsor-2","status":"bootcamp","createdAt":"2026-03-02T10:00:00.000Z","updatedAt":"2026-03-05T10:00:00.000Z"}
+]

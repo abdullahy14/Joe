@@ -1,0 +1,5 @@
+[
+  {"id":"player-1","name":"Lena Ortiz","gamerTag":"Nyx","role":"Duelist","rank":"Radiant","teamId":"team-1","createdAt":"2026-03-01T10:00:00.000Z","updatedAt":"2026-03-01T10:00:00.000Z"},
+  {"id":"player-2","name":"Theo Briggs","gamerTag":"Frost","role":"IGL","rank":"Immortal","teamId":"team-1","createdAt":"2026-03-01T11:00:00.000Z","updatedAt":"2026-03-01T11:00:00.000Z"},
+  {"id":"player-3","name":"Rin Sato","gamerTag":"Echo","role":"Support","rank":"Grandmaster","teamId":"team-2","createdAt":"2026-03-02T10:00:00.000Z","updatedAt":"2026-03-02T10:00:00.000Z"}
+]

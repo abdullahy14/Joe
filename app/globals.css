@@ -1,0 +1,61 @@
+:root {
+  color-scheme: dark;
+  --bg: #07111f;
+  --panel: #0e1b30;
+  --panel-soft: #132440;
+  --border: rgba(125, 171, 255, 0.18);
+  --text: #eff5ff;
+  --muted: #94a6c8;
+  --accent: #4da2ff;
+  --danger: #ff5f7a;
+  --success: #2ad3a1;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: radial-gradient(circle at top, #11213a 0%, var(--bg) 65%); color: var(--text); font-family: Arial, Helvetica, sans-serif; }
+a { color: inherit; text-decoration: none; }
+button, input, textarea, select { font: inherit; }
+body { min-height: 100vh; }
+.layout-shell { display: grid; grid-template-columns: 280px 1fr; gap: 24px; padding: 24px; min-height: 100vh; }
+.content { display: flex; flex-direction: column; gap: 20px; }
+.card { background: rgba(14, 27, 48, 0.94); border: 1px solid var(--border); border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.25); }
+.sidebar { padding: 24px; display: flex; flex-direction: column; justify-content: space-between; gap: 24px; position: sticky; top: 24px; height: calc(100vh - 48px); }
+.eyebrow { text-transform: uppercase; letter-spacing: 0.18em; color: var(--accent); font-size: 12px; margin: 0 0 8px; }
+.muted { color: var(--muted); }
+.nav-grid { display: grid; gap: 8px; }
+.nav-link { padding: 12px 14px; border-radius: 12px; background: transparent; border: 1px solid transparent; }
+.nav-link.active, .nav-link:hover { background: rgba(77, 162, 255, 0.12); border-color: var(--border); }
+.sidebar-stats { display: grid; gap: 12px; }
+.sidebar-stats div { padding: 14px; border-radius: 14px; background: rgba(255,255,255,0.03); display: flex; justify-content: space-between; }
+.section-header { padding: 24px; display: flex; justify-content: space-between; gap: 20px; align-items: center; }
+.stats-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+.stat-card { padding: 20px; display: grid; gap: 10px; }
+.stat-card strong { font-size: 28px; }
+.table-wrap { overflow: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 14px 16px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.07); vertical-align: top; }
+tr:hover td { background: rgba(255,255,255,0.02); }
+.primary-button, .ghost-button, .danger-button { border: none; border-radius: 12px; padding: 10px 14px; cursor: pointer; }
+.primary-button { background: linear-gradient(135deg, #4da2ff, #7f6fff); color: white; }
+.ghost-button { background: rgba(255,255,255,0.06); color: white; border: 1px solid var(--border); }
+.danger-button { background: rgba(255,95,122,0.16); color: #ff9db0; border: 1px solid rgba(255,95,122,0.3); }
+.inline-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.field { display: grid; gap: 8px; }
+.field input, .field textarea, .field select { background: rgba(255,255,255,0.04); border: 1px solid var(--border); color: var(--text); border-radius: 12px; padding: 12px 14px; width: 100%; }
+.field textarea { min-height: 120px; resize: vertical; }
+.stack-md { display: grid; gap: 16px; }
+.grid-two { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.modal-backdrop { position: fixed; inset: 0; background: rgba(4,9,17,0.82); display: grid; place-items: center; padding: 20px; z-index: 1000; }
+.modal { width: min(680px, 100%); padding: 24px; }
+.modal-header { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 16px; }
+.chip { display: inline-flex; padding: 6px 10px; border-radius: 999px; background: rgba(77, 162, 255, 0.12); color: #9dd0ff; }
+.list-card { padding: 20px; display: grid; gap: 10px; }
+.hero { padding: 28px; display: grid; gap: 16px; }
+.hero-grid { display: grid; gap: 18px; grid-template-columns: 2fr 1fr; }
+.boot-screen { min-height: 100vh; display: grid; place-items: center; color: var(--muted); }
+.split { display: flex; justify-content: space-between; gap: 16px; align-items: center; }
+.small { font-size: 13px; }
+@media (max-width: 960px) {
+  .layout-shell { grid-template-columns: 1fr; }
+  .sidebar { position: static; height: auto; }
+  .hero-grid { grid-template-columns: 1fr; }
+}

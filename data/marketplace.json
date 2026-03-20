@@ -1,0 +1,5 @@
+[
+  {"id":"market-1","name":"Immortal Coaching Pack","title":"Immortal Coaching Pack","category":"coaching","price":120,"description":"One-on-one VOD review and live scrim prep.","seller":"Coach Nova","createdAt":"2026-03-03T10:00:00.000Z","updatedAt":"2026-03-03T10:00:00.000Z"},
+  {"id":"market-2","name":"Diamond Smurf Account","title":"Diamond Smurf Account","category":"account","price":260,"description":"Offline demo listing for a ranked-ready account.","seller":"Account Vault","createdAt":"2026-03-04T10:00:00.000Z","updatedAt":"2026-03-04T10:00:00.000Z"},
+  {"id":"market-3","name":"Team Jersey Bundle","title":"Team Jersey Bundle","category":"item","price":75,"description":"Merch bundle with jersey and mousepad.","seller":"Merch Lab","createdAt":"2026-03-05T10:00:00.000Z","updatedAt":"2026-03-05T10:00:00.000Z"}
+]

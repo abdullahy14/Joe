@@ -1,0 +1,5 @@
+[
+  {"id":"user-1","name":"Avery Stone","role":"manager","email":"avery@offline.gg","createdAt":"2026-03-01T10:00:00.000Z","updatedAt":"2026-03-01T10:00:00.000Z"},
+  {"id":"user-2","name":"Mika Park","role":"commentator","email":"mika@offline.gg","createdAt":"2026-03-02T10:00:00.000Z","updatedAt":"2026-03-02T10:00:00.000Z"},
+  {"id":"user-3","name":"Jordan Vale","role":"client","email":"jordan@brand.local","createdAt":"2026-03-03T10:00:00.000Z","updatedAt":"2026-03-03T10:00:00.000Z"}
+]

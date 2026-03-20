@@ -1,0 +1,3 @@
+[
+  {"id":"tournament-1","name":"Spring Clash","title":"Spring Clash","game":"Valorant","status":"live","prizePool":25000,"teamIds":["team-1","team-2"],"fixtureMatchIds":["match-1"],"startsAt":"2026-03-21T17:00:00.000Z","createdAt":"2026-03-06T10:00:00.000Z","updatedAt":"2026-03-12T10:00:00.000Z"}
+]

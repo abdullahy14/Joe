@@ -1,0 +1,4 @@
+[
+  {"id":"comment-1","name":"Caster note","title":"Caster note","entityType":"match","entityId":"match-1","author":"Mika Park","message":"Huge clutch potential if Night Owls keep map control.","createdAt":"2026-03-11T10:00:00.000Z","updatedAt":"2026-03-11T10:00:00.000Z"},
+  {"id":"comment-2","name":"Tournament update","title":"Tournament update","entityType":"tournament","entityId":"tournament-1","author":"Avery Stone","message":"Bracket updated after the opening series.","createdAt":"2026-03-12T10:00:00.000Z","updatedAt":"2026-03-12T10:00:00.000Z"}
+]

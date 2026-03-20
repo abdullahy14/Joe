@@ -1,0 +1,4 @@
+[
+  {"id":"comment-1","name":"Opening desk note","entityType":"match","entityId":"match-1","author":"Caster Flux","message":"Great tempo from Shadow Pulse in the first half.","createdAt":"2026-01-19T10:00:00.000Z","updatedAt":"2026-01-19T10:00:00.000Z"},
+  {"id":"comment-2","name":"Tournament hype","entityType":"tournament","entityId":"tournament-1","author":"Nova Ops","message":"Expect a strong audience turnout for playoffs.","createdAt":"2026-01-19T11:00:00.000Z","updatedAt":"2026-01-19T11:00:00.000Z"}
+]

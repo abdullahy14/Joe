@@ -1,0 +1,5 @@
+[
+  {"id":"user-1","name":"Nova Ops","role":"manager","region":"NA","createdAt":"2026-01-05T10:00:00.000Z","updatedAt":"2026-01-05T10:00:00.000Z"},
+  {"id":"user-2","name":"Echo Sage","role":"coach","region":"EU","createdAt":"2026-01-06T10:00:00.000Z","updatedAt":"2026-01-06T10:00:00.000Z"},
+  {"id":"user-3","name":"Caster Flux","role":"commentator","region":"APAC","createdAt":"2026-01-07T10:00:00.000Z","updatedAt":"2026-01-07T10:00:00.000Z"}
+]

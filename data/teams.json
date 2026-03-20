@@ -1,0 +1,4 @@
+[
+  {"id":"team-1","name":"Shadow Pulse","game":"Valorant","region":"NA","sponsorId":"sponsor-1","playerIds":["player-1","player-2"],"status":"active","createdAt":"2026-01-12T10:00:00.000Z","updatedAt":"2026-01-12T10:00:00.000Z"},
+  {"id":"team-2","name":"Glacier Five","game":"Counter-Strike 2","region":"EU","sponsorId":"sponsor-2","playerIds":["player-3"],"status":"trial","createdAt":"2026-01-12T11:00:00.000Z","updatedAt":"2026-01-12T11:00:00.000Z"}
+]

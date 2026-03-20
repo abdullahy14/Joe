@@ -1,0 +1,4 @@
+[
+  {"id":"sponsor-1","name":"Nebula Energy","tier":"Diamond","budget":250000,"focus":"Global activations","createdAt":"2026-01-08T10:00:00.000Z","updatedAt":"2026-01-08T10:00:00.000Z"},
+  {"id":"sponsor-2","name":"Pulse Gear","tier":"Gold","budget":120000,"focus":"Peripheral bundles","createdAt":"2026-01-09T10:00:00.000Z","updatedAt":"2026-01-09T10:00:00.000Z"}
+]

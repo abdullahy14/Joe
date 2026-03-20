@@ -1,0 +1,5 @@
+[
+  {"id":"market-1","name":"Immortal Coaching Pack","title":"Immortal Coaching Pack","category":"coaching","price":89,"stock":12,"description":"Two VOD reviews and a ranked improvement plan.","createdAt":"2026-01-18T10:00:00.000Z","updatedAt":"2026-01-18T10:00:00.000Z"},
+  {"id":"market-2","name":"Arena Smurf Account","title":"Arena Smurf Account","category":"accounts","price":45,"stock":5,"description":"Mock demo account listing for offline testing only.","createdAt":"2026-01-18T10:05:00.000Z","updatedAt":"2026-01-18T10:05:00.000Z"},
+  {"id":"market-3","name":"Team Jersey Bundle","title":"Team Jersey Bundle","category":"items","price":60,"stock":18,"description":"Digital merch bundle with mock fulfillment.","createdAt":"2026-01-18T10:10:00.000Z","updatedAt":"2026-01-18T10:10:00.000Z"}
+]

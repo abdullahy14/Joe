@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Core Concept | Learn. Compete. Earn.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Orbitron:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="https://cdn.coverr.co/videos/coverr-gaming-space-5589/1080p.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-content container mx-auto px-6 py-20">
+        <h1 class="hero-title">Core Concept</h1>
+        <p class="hero-subtitle">Level up with elite coaching, win live tournaments, and monetize your grind.</p>
+        <a class="cta-btn glow-btn" href="/api/learning/valorant/beginner">Start Your Pro Journey</a>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-6 pb-24">
+      <section class="pillar-grid mt-12">
+        <article class="glass-card">
+          <h3>Learn</h3>
+          <p>Adaptive courses with progression tracking, badges, and coach-led mastery sessions.</p>
+        </article>
+        <article class="glass-card">
+          <h3>Compete</h3>
+          <p>Single and double-elim bracket systems, squad finder, and real-time tournament updates.</p>
+        </article>
+        <article class="glass-card">
+          <h3>Earn</h3>
+          <p>Marketplace trading, wallet payouts, affiliate commissions, and anti-fraud protections.</p>
+        </article>
+      </section>
+
+      <section class="grid lg:grid-cols-3 gap-6 mt-12">
+        <article class="panel lg:col-span-2">
+          <div class="flex items-center justify-between mb-4">
+            <h2>Current Tournaments</h2>
+            <button class="glow-btn">View All</button>
+          </div>
+          <div class="grid md:grid-cols-2 gap-4">
+            <div class="tournament-card">
+              <p class="meta">Valorant • Live</p>
+              <h4>Night Ops Cup</h4>
+              <p>$500 Prize Pool</p>
+            </div>
+            <div class="tournament-card">
+              <p class="meta">CS2 • Upcoming</p>
+              <h4>Urban Strike Major</h4>
+              <p>$1,200 Prize Pool</p>
+            </div>
+          </div>
+        </article>
+        <article class="panel">
+          <h2 class="mb-4">Top-Rated Coaching</h2>
+          <ul class="space-y-3">
+            <li class="coach-row"><span>AstraCoach</span><span>4.9 ★</span></li>
+            <li class="coach-row"><span>NebulaAim</span><span>4.8 ★</span></li>
+            <li class="coach-row"><span>EchoStrat</span><span>4.8 ★</span></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <button id="sp-fab" class="support-fab glow-btn" aria-label="Open Support Player">
+      Support Player
+    </button>
+    <aside id="sp-panel" class="support-panel hidden">
+      <div class="flex items-center justify-between mb-3">
+        <h3>Next Action</h3>
+        <button id="sp-close">✕</button>
+      </div>
+      <p id="sp-insight" class="text-sm text-slate-300 mb-3"></p>
+      <div id="sp-actions" class="space-y-2"></div>
+    </aside>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
